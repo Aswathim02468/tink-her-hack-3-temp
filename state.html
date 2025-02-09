@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Selection</title>
+    <script>
+        function redirect() {
+            var a = document.getElementById('city').value;
+            if (a === 'kerala') {
+                window.location.href = "keralamed.html";
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(271, 66%, 14%);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #090a0b;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            margin-top: 50px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #141625;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 220px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Select Your State</h1>
+    </header>
+    <main>
+        <form onsubmit="event.preventDefault(); redirect();">
+            <select name="city" id="city">
+                <option value="kerala">Kerala</option>
+                <option value="tamilnadu">Tamil Nadu</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="andhra pradesh">Andhra Pradesh</option>
+                <option value="telangana">Telangana</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
