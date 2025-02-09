@@ -17,18 +17,18 @@
 It helps to know the timeline of medical boat serviece in assam and also give information about timeline of specilist in medical college.
 
 ### The Problem statement
-In some rural areas of Assam medical servieces is provided through boat serviece.The citizen dont know when they will get serviece and another pro 
+In some rural areas of Assam medical servieces is provided through boat .The citizen dont know when they will get serviece and another problem is  we dont know when which specialist will come at medical colleges so our lot of time and money becomes waste. 
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+We made a website that show the expected timeline of medical servieces through boat in assam and it also shows the timeline of doctors in medical college.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+-HTML,CSS,JS
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- chat GPT
 
 For Hardware:
 - [List main components]
