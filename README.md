@@ -2,22 +2,22 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Algorithm aces]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Mufeeda.A-WPTC,KAYAMKULAM
+- Member 2: Aswathi.M-WPTC,KAYAMKULAM
 - Member 3: [Name] - [College]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+It helps to know the timeline of medical boat serviece in assam and also give information about timeline of specilist in medical college.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+In some rural areas of Assam medical servieces is provided through boat serviece.The citizen dont know when they will get serviece and another pro 
 
 ### The Solution
 [How are you solving it? Keep it fun!]
